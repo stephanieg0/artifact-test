@@ -20,7 +20,7 @@ jobs:
     - name: Upload Second
       uses: actions/upload-artifact@v2
       with:
-        name: another-artifact *️
+        name: another-artifact *️⃣
         path: content/file1.txt
         retention-days: 15
     - name: Upload all
